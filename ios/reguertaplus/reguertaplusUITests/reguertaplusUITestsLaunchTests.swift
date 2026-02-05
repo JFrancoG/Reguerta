@@ -1,13 +1,13 @@
 //
-//  ios_reguertaUITestsLaunchTests.swift
-//  ios-reguertaUITests
+//  reguertaplusUITestsLaunchTests.swift
+//  reguertaplusUITests
 //
 //  Created by Jesús Franco on 05.02.2026.
 //
 
 import XCTest
 
-final class ios_reguertaUITestsLaunchTests: XCTestCase {
+final class reguertaplusUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

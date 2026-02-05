@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  ios-reguerta
+//  reguertaplus
 //
 //  Created by Jesús Franco on 05.02.2026.
 //

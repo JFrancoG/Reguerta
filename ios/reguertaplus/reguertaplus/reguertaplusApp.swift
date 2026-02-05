@@ -1,6 +1,6 @@
 //
-//  ios_reguertaApp.swift
-//  ios-reguerta
+//  reguertaplusApp.swift
+//  reguertaplus
 //
 //  Created by Jesús Franco on 05.02.2026.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ios_reguertaApp: App {
+struct reguertaplusApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

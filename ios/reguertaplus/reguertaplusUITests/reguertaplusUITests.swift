@@ -1,13 +1,13 @@
 //
-//  ios_reguertaUITests.swift
-//  ios-reguertaUITests
+//  reguertaplusUITests.swift
+//  reguertaplusUITests
 //
 //  Created by Jesús Franco on 05.02.2026.
 //
 
 import XCTest
 
-final class ios_reguertaUITests: XCTestCase {
+final class reguertaplusUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
