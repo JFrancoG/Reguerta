@@ -12,4 +12,11 @@ Estructura general:
 - Dominio: casos de uso / reglas de negocio
 - Datos: repositorios y data sources
 
+Servicios de backend:
+- Base de datos: Firebase Firestore
+- Autenticacion: Firebase Authentication
+- Almacenamiento: Firebase Storage
+- Crash reporting: Firebase Crashlytics
+- Notificaciones push: Firebase Cloud Messaging (FCM)
+
 Las decisiones relacionadas estan en `../decisions`.

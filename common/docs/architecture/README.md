@@ -12,4 +12,11 @@ High-level structure:
 - Domain: Use cases / business rules
 - Data: Repositories and data sources
 
+Backend services:
+- Database: Firebase Firestore
+- Auth: Firebase Authentication
+- Storage: Firebase Storage
+- Crash reporting: Firebase Crashlytics
+- Push notifications: Firebase Cloud Messaging (FCM)
+
 Related decisions live in `../decisions`.
