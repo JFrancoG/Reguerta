@@ -1,21 +1,40 @@
 # macOS
 .DS_Store
 
+# Logs
+*.log
+
+# Env / secrets
+.env
+secrets.properties
+Secrets.swift
+*.xcconfig
+*.p12
+*.mobileprovision
+*.cert
+*.key
+keystore/
+keystore.properties
+*.jks
+
 # Xcode
 DerivedData/
-build/
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.perspectivev3
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
 xcuserdata/
 *.moved-aside
 *.xcuserstate
 *.xccheckout
+*.xcresult
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
 
 # SwiftPM
 .build/
-.swiftpm/xcode/package.xcworkspace/
+.swiftpm/
+Packages/
 
 # CocoaPods
 Pods/
@@ -33,11 +52,30 @@ fastlane/test_output/
 .gradle/
 local.properties
 **/build/
+bin/
+gen/
+out/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+.externalNativeBuild/
+.navigation/
+captures/
 
 # IDEs
 .idea/
 *.iml
 
-# Logs / env
-*.log
-.env
+# Firebase
+google-services.json
+GoogleService-Info.plist
+GoogleService-Info*.plist
+
+# Firebase Functions (root /functions)
+functions/lib/
+functions/node_modules/
+functions/.env
+functions/.firebaserc
+functions/.runtimeconfig.json
